@@ -1,9 +1,13 @@
+import Header from "./components/Header";
 function App() {
-  return (
-    <div className="App">
-     <h1>TODO App</h1>
-    </div>
-  );
+  
+  const titleApp = "TODO App"
+
+    return (
+        <div className="App">
+             <Header/>
+        </div>
+    );
 }
 
 export default App;
