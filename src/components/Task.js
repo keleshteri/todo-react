@@ -3,7 +3,7 @@ import { FaTrash } from "react-icons/fa";
 
 function Task({ task, onDelete,onToggle }) {
   return (
-    <div className={`task ${task.reminder ? "reminder":""}`} onDoubleClick={()=> onToggle(task.id)}>
+    <div className={`task ${task.reminder ? "reminder":""}`} onDoubleClick={()=> onToggle(task)}>
       <h3>
         {task.text}{" "}
         <FaTrash
